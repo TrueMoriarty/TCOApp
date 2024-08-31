@@ -1,0 +1,114 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "A:\\Work\\TCOAppNew\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6A3CC35C-09EC-4272-80A7-A794705A03D8}|TCOApp\\TCOApp.csproj|a:\\work\\tcoappnew\\tcoapp\\viewmodels\\viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A3CC35C-09EC-4272-80A7-A794705A03D8}|TCOApp\\TCOApp.csproj|solutionrelative:tcoapp\\viewmodels\\viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A3CC35C-09EC-4272-80A7-A794705A03D8}|TCOApp\\TCOApp.csproj|A:\\Work\\TCOAppNew\\tcoapp\\inputhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A3CC35C-09EC-4272-80A7-A794705A03D8}|TCOApp\\TCOApp.csproj|solutionrelative:tcoapp\\inputhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A3CC35C-09EC-4272-80A7-A794705A03D8}|TCOApp\\TCOApp.csproj|A:\\Work\\TCOAppNew\\tcoapp\\outputhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A3CC35C-09EC-4272-80A7-A794705A03D8}|TCOApp\\TCOApp.csproj|solutionrelative:tcoapp\\outputhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A3CC35C-09EC-4272-80A7-A794705A03D8}|TCOApp\\TCOApp.csproj|A:\\Work\\TCOAppNew\\tcoapp\\linearoptimization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A3CC35C-09EC-4272-80A7-A794705A03D8}|TCOApp\\TCOApp.csproj|solutionrelative:tcoapp\\linearoptimization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A3CC35C-09EC-4272-80A7-A794705A03D8}|TCOApp\\TCOApp.csproj|A:\\Work\\TCOAppNew\\tcoapp\\viewmodels\\optimizationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A3CC35C-09EC-4272-80A7-A794705A03D8}|TCOApp\\TCOApp.csproj|solutionrelative:tcoapp\\viewmodels\\optimizationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 215,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 185,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ViewModel.cs",
+              "DocumentMoniker": "A:\\Work\\TCOAppNew\\TCOApp\\ViewModels\\ViewModel.cs",
+              "RelativeDocumentMoniker": "TCOApp\\ViewModels\\ViewModel.cs",
+              "ToolTip": "A:\\Work\\TCOAppNew\\TCOApp\\ViewModels\\ViewModel.cs",
+              "RelativeToolTip": "TCOApp\\ViewModels\\ViewModel.cs",
+              "ViewState": "AQIAAEQBAAAAAAAAAAAcwFEBAAB7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T06:20:15.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OutputHandler.cs",
+              "DocumentMoniker": "A:\\Work\\TCOAppNew\\TCOApp\\OutputHandler.cs",
+              "RelativeDocumentMoniker": "TCOApp\\OutputHandler.cs",
+              "ToolTip": "A:\\Work\\TCOAppNew\\TCOApp\\OutputHandler.cs",
+              "RelativeToolTip": "TCOApp\\OutputHandler.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAcwGAAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T13:17:00.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OptimizationViewModel.cs",
+              "DocumentMoniker": "A:\\Work\\TCOAppNew\\TCOApp\\ViewModels\\OptimizationViewModel.cs",
+              "RelativeDocumentMoniker": "TCOApp\\ViewModels\\OptimizationViewModel.cs",
+              "ToolTip": "A:\\Work\\TCOAppNew\\TCOApp\\ViewModels\\OptimizationViewModel.cs",
+              "RelativeToolTip": "TCOApp\\ViewModels\\OptimizationViewModel.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAzwFIAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T12:45:02.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InputHandler.cs",
+              "DocumentMoniker": "A:\\Work\\TCOAppNew\\TCOApp\\InputHandler.cs",
+              "RelativeDocumentMoniker": "TCOApp\\InputHandler.cs",
+              "ToolTip": "A:\\Work\\TCOAppNew\\TCOApp\\InputHandler.cs",
+              "RelativeToolTip": "TCOApp\\InputHandler.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAADwvygAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T06:31:01.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LinearOptimization.cs",
+              "DocumentMoniker": "A:\\Work\\TCOAppNew\\TCOApp\\LinearOptimization.cs",
+              "RelativeDocumentMoniker": "TCOApp\\LinearOptimization.cs",
+              "ToolTip": "A:\\Work\\TCOAppNew\\TCOApp\\LinearOptimization.cs",
+              "RelativeToolTip": "TCOApp\\LinearOptimization.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAswDsAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T11:06:28.449Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

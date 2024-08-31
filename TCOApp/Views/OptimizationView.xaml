@@ -1,0 +1,113 @@
+﻿<Window x:Class="TCOApp.OptimizationView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+        xmlns:viewmodels="clr-namespace:TCOApp.ViewModels" d:DataContext="{d:DesignInstance Type=viewmodels:OptimizationViewModel}"
+        mc:Ignorable="d"
+        Title="Оптимизация" Height="auto" Width="auto">
+    <Grid>
+        <ScrollViewer VerticalScrollBarVisibility="Auto" 
+              HorizontalScrollBarVisibility="Auto">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="20" />
+                    <ColumnDefinition Width="auto" />
+                    <ColumnDefinition Width="auto" />
+                    <ColumnDefinition Width="auto" />
+                    <ColumnDefinition Width="auto" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="20" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="20" />
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="20" />
+                </Grid.RowDefinitions>
+
+                <!-- Row 1 -->
+                <TextBlock Grid.Row="1" Grid.Column="1" 
+                           Text="Выберите путь сохранения:" 
+                           Margin="0,0,0,5"/>
+                
+                <!-- Row 2 -->
+                <StackPanel Grid.Row="2" Grid.Column="1"
+                            Orientation="Horizontal">
+                    <TextBox Text="{Binding PathTextBox}"
+                             Margin="0,0,5,0"
+                             Width="150"/>
+                    <Button Content="..." Width="20" 
+                            Height="20" 
+                            Margin="0,0,5,0" 
+                            Command="{Binding ChoiceTheDirectory}"/>
+                    <Button Content="Сохранить" 
+                            Margin="0,0,5,0" FontSize="12"
+                            Height="auto" Width="auto"
+                            Command="{Binding SaveFile}"/>
+                </StackPanel>
+
+                <!-- Row 3 -->
+                <StackPanel Grid.Row="4" Grid.Column="1">
+                    <TextBlock Text="Количество кряжа и количество получаемого из него шпона"
+                               Margin="0,5,0,0"/>
+                    <ListView ScrollViewer.VerticalScrollBarVisibility="Visible"
+                              ScrollViewer.CanContentScroll="True"
+                              Margin="0,5,0,0"
+                              ItemsSource="{Binding KRCResultModels}">
+                        <ListView.View>
+                            <GridView AllowsColumnReorder="true">
+                                <GridViewColumn DisplayMemberBinding="{Binding Sort}" 
+                                                Header="Сорт кряжа" Width="auto"/>
+                                <GridViewColumn DisplayMemberBinding="{Binding Amount}" 
+                                                Header="Количество" Width="auto"/>
+                                <GridViewColumn DisplayMemberBinding="{Binding B}" 
+                                                Header="B" Width="auto"/>
+                                <GridViewColumn DisplayMemberBinding="{Binding S}" 
+                                                Header="S" Width="auto"/>
+                                <GridViewColumn DisplayMemberBinding="{Binding BB}" 
+                                                Header="BB" Width="auto"/>
+                                <GridViewColumn DisplayMemberBinding="{Binding CP}" 
+                                                Header="CP" Width="auto"/>
+                                <GridViewColumn DisplayMemberBinding="{Binding C}" 
+                                                Header="C" Width="auto"/>
+                                <GridViewColumn DisplayMemberBinding="{Binding One}" 
+                                                Header="1" Width="auto"/>
+                                <GridViewColumn DisplayMemberBinding="{Binding Two}" 
+                                                Header="2" Width="auto"/>
+                                <GridViewColumn DisplayMemberBinding="{Binding Three}" 
+                                                Header="3" Width="auto"/>
+                                <GridViewColumn DisplayMemberBinding="{Binding NF}" 
+                                                Header="n/f" Width="auto"/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+
+                    <TextBlock Text="Цена кряжа в зависимости от условий"
+                               Margin="0,5,0,0"/>
+                    <ListView ScrollViewer.VerticalScrollBarVisibility="Visible"
+                              ScrollViewer.CanContentScroll="True"
+                              Margin="0,5,0,0"
+                              ItemsSource="{Binding AllCostModels}">
+                        <ListView.View>
+                            <GridView AllowsColumnReorder="true">
+                                <GridViewColumn DisplayMemberBinding="{Binding RidgeSort}" 
+                                                Header="Сорт кряжа" Width="auto"/>
+                                <GridViewColumn DisplayMemberBinding="{Binding RidgeCount}" 
+                                                Header="Количество" Width="auto"/>
+                                <GridViewColumn DisplayMemberBinding="{Binding RidgeCost}" 
+                                                Header="Стоимость" Width="auto"/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                </StackPanel>
+                
+            </Grid>
+        </ScrollViewer>
+    </Grid>
+</Window>
